@@ -1,70 +1,56 @@
-# Smart Parking API
+# Trend MD - E-commerce store
 
 ## Overview
+**Trend MD** is a web-based online clothing store designed to provide a modern and responsive shopping experience. Built with a **React frontend** and **Spring Boot backend**, the platform allows users to browse products, filter by categories, manage their shopping cart, and place orders easily.  
 
-RESTful web service built with Spring Boot allows users to manage parking spots in urban areas. This API supports functionalities for creating, retrieving, and managing parking spots, users, and reservations.
-
-## Features
-
-- Create and manage parking spots.
-- Retrieve available parking spots.
-- User management for booking parking spots.
-- Reservation management with time limits.
-
-## Technologies Used
-
-- **Java 17** (or higher)
-- **Spring Boot** (latest stable version)
-- **Spring Data JPA**
-- **MySQL** (or compatible database)
-- **JTS (Java Topology Suite)** for geometric data handling
-
-## Getting Started
-
-### Prerequisites
-
-- **Java JDK 17** or higher installed on your machine.
-- **MySQL Server** up and running.
-- **Gradle** for building the project.
-
-### Installation
-
-1. Clone the repository:
-
-   ```bash
-   # Smart Parking API
-
-## Overview
-
-RESTful web service built with Spring Boot allows users to manage parking spots in urban areas. This API supports functionalities for creating, retrieving, and managing parking spots, users, and reservations.
+---
 
 ## Features
+- **User Authentication & Authorization**  
+  - Secure registration and login system  
+  - Role-based access for Admin and Users  
 
-- Create and manage parking spots.
-- Retrieve available parking spots.
-- User management for booking parking spots.
-- Reservation management with time limits.
+- **Product Management**  
+  - View, filter, and search products by category, subcategory, or price  
+  - Product cards with images, descriptions, and prices  
+  - Admin can add, edit, or delete products and categories  
 
-## Technologies Used
+- **Shopping Cart & Orders**  
+  - Add products to cart  
+  - Update quantity or remove items  
+  - Place orders and track order status  
 
-- **Java 17** (or higher)
-- **Spring Boot** (latest stable version)
-- **Spring Data JPA**
-- **MySQL** (or compatible database)
-- **JTS (Java Topology Suite)** for geometric data handling
+- **Categories & Subcategories**  
+  - Organize products by categories and subcategories  
+  - Admin can create and assign products to categories  
 
-## Getting Started
+- **Multilingual Support**  
+  - Supports Russian and Romanian languages  
+
+- **Responsive UI**  
+  - Works on desktop and mobile devices  
+  - Modern and intuitive design  
+
+---
+
+## Tech Stack
+- **Frontend:** React, Vite, Tailwind CSS  
+- **Backend:** Java Spring Boot  
+- **Database:** MySQL (containerized using Docker)  
+- **APIs:** RESTful endpoints for CRUD operations  
+- **Other Tools:** Git, Maven, Postman  
+
+---
+
+## Installation
 
 ### Prerequisites
+- Java 17+  
+- Node.js 18+  
+- Docker & Docker Compose  
+- MySQL (or via Docker container)  
 
-- **Java JDK 17** or higher installed on your machine.
-- **MySQL Server** up and running.
-- **Gradle** for building the project.
-
-### Installation
-
+### Backend Setup
 1. Clone the repository:
-
    ```bash
-   https://github.com/EduardIateniuc/Trend-Store_MD.git
-
+   git clone https://github.com/EduardIateniuc/trend-md.git
